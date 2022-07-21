@@ -31,9 +31,45 @@
             </ul>
         </nav>
     </header>
-    <section id="header-main">
-     
-        <h2>Cat Jonesy</h2>
+    <section id="header-contact">
+        <h2>Contact Cat Jonesy</h2>
+        <p>
+            Thank you for checking Jonesy's Website. If you would like to become a sponsor please fill in the form below.
+        </p>
+        <form>
+            <label for="fname">First Name</label> 
+            <input type="text" name="first_name" id="fname" required />
+            <label for="lname">Last Name</label> 
+            <input type="text" name="last_name" id="lname" required />
+            <label for="email">Email Address</label> 
+            <input type="email" name="email_address" id="email" required />
+            <label for="text">Company Name</label> 
+            <input type="text" name="company_name" id="cname" required />
+
+            <selection name="sponsorship_preference">
+                <label for="payed">Payed</label>
+                <input type="radio" id="payed" name="sponsorship_preference" />
+                <button value="payed" required></button>
+                <label for="unpayed">Unpayed</label>
+                <input type="radio" id="unpayed" name="sponsorship_preference" />
+                <button value="unpayed" required></button>  
+            </selection>
+
+            <label for="text">Will a Free sample of your product be provided?</label> 
+            <label for="sample_yes">yes</label>
+            <input type="radio" id="sample_yes"  />
+            <button value="payed" required></button>
+            <label for="sample_no">no</label>
+            <input type="radio" id="sample_no"/>
+            <button value="unpayed" required></button>  
+
+            <label for="text">Please enter how the details of your sponsorhip and how much you are willing to pay</label> 
+            <textarea name="comment" form="usrform">Enter text here...</textarea>
+
+            <label for="text">Any additional information please enter here</label> 
+            <textarea name="comment" form="usrform">Enter text here...</textarea>
+
+        </form>
        
     </section>
 
