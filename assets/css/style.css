@@ -23,6 +23,7 @@ h1, h2 {
 #logo{
     float: right;
     font-size:500%;
+    margin-right: 40px ;
 }
 
 #menu{
@@ -101,4 +102,28 @@ h1, h2 {
     bottom: 30px;
     left: 150px;
     position: absolute;
+}
+
+/* motivation quotes */
+
+#motivation{
+    height: 600px;
+}
+
+#left-motivation{
+    padding-top:30px;
+    width: 33%;
+    float:left;
+}
+
+#center-motivation{
+    padding-top:30px;
+    width: 33%;
+    margin: 0 auto;
+}
+
+#right-motivation{
+    padding-top:30px;
+    width: 33%;
+    float:right;
 }
