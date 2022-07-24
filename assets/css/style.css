@@ -18,6 +18,8 @@ h1, h2 {
     font-family: Great Vibes, sand-serif;
     letter-spacing: 3px;
     color: #D29D3F;
+    padding-bottom: 2px;
+    padding-top: 10px;
 }
 
 #logo{
@@ -92,7 +94,7 @@ h1, h2 {
 
 #cover-text {
     font-size: 130%;
-    font-family: Great Vibes, sand-serif;
+    font-family: Frank Ruhl Libre, sand-serif;
     letter-spacing: 3px;
     width: 400px;
     height: 100px;
@@ -126,4 +128,18 @@ h1, h2 {
     padding-top:30px;
     width: 33%;
     float:right;
+}
+
+hr{
+    border-top: 1px solid #D29D3F;
+    width: 100%;
+    margin: 5px ;
+}
+
+.center-motivation-context{
+    width: 60%;
+    margin: 0 auto;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
 }
