@@ -143,3 +143,43 @@ hr{
     clear: both;
     margin-bottom: 50px;
 }
+
+#motiv-head{
+    text-align: center;
+    margin: 15px 0;
+    font-size: 250%;
+}
+
+#circle-container-left{
+    width: 400px ;
+    height: 400px ;
+    padding: 35px;
+    border-style: solid;
+    border-color: #DB9050;
+    border-width: 2px;
+    border-radius: 50%;
+    float:left;
+}
+
+#circle-container-right{
+    width: 400px ;
+    height: 400px ;
+    padding: 35px;
+    border-style: solid;
+    border-color: #DB9050;
+    border-width: 2px;
+    border-radius: 50%;
+    float:right;
+}
+
+#circle-cover-bg-left{
+    background: url('../images/motiv-left.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#circle-cover-bg-right{
+    background: url('../images/motiv-right.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
