@@ -55,10 +55,15 @@ h1, h2 {
 
 /* hero-image */
 
-#hero-auto{
+#hero-outer{
     height: 600px;
     width: 100%;
     overflow: hidden;
+    position: relative;
+}
+
+#cover-text, #cover-text h2{
+    color: #fff;
 }
 
 #hero-image{
@@ -82,4 +87,18 @@ h1, h2 {
     to{
         transform: scale(1.1);
     }
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: Great Vibes, sand-serif;
+    letter-spacing: 3px;
+    width: 400px;
+    height: 100px;
+    padding-top: 20px;
+    padding-left: 20px;
+    background-color: rgba(77, 196, 113, 0.7);
+    bottom: 30px;
+    left: 150px;
+    position: absolute;
 }
