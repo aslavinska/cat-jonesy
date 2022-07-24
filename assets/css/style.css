@@ -14,7 +14,8 @@ body {
 
 /* heading and logo */
 
-h1, h2 {
+h1,
+h2 {
     font-family: Great Vibes, sand-serif;
     letter-spacing: 3px;
     color: #D29D3F;
@@ -22,54 +23,56 @@ h1, h2 {
     padding-top: 10px;
 }
 
-#logo{
+#logo {
     float: right;
-    font-size:500%;
-    margin-right: 40px ;
+    font-size: 500%;
+    margin-right: 40px;
 }
 
-#menu{
+#menu {
     font-size: 150%;
     letter-spacing: 3px;
 }
 
-#menu, #logi{
+#menu,
+#logi {
     line-height: 75px;
 }
 
 #menu li {
     float: left;
     list-style-type: none;
-    margin-left: 30px ;
+    margin-left: 30px;
 }
 
-#menu a{
+#menu a {
     text-decoration: none;
     color: inherit;
 }
 
-#menu a:hover{
-    border-bottom: 2px solid #1D142A  ;
+#menu a:hover {
+    border-bottom: 2px solid #1D142A;
 }
 
 .active {
-    border-bottom: 2px solid #1D142A  ;
+    border-bottom: 2px solid #1D142A;
 }
 
 /* hero-image */
 
-#hero-outer{
+#hero-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
-#cover-text, #cover-text h2{
+#cover-text,
+#cover-text h2 {
     color: #fff;
 }
 
-#hero-image{
+#hero-image {
     height: 600px;
     width: 100%;
     background: url('../images/jonesy_main.jpg') no-repeat center center;
@@ -84,10 +87,11 @@ h1, h2 {
 /* creates the level of zoom for hero image */
 
 @keyframes hero-zoom {
-    from{
+    from {
         transform: scale(1);
     }
-    to{
+
+    to {
         transform: scale(1.1);
     }
 }
@@ -108,78 +112,97 @@ h1, h2 {
 
 /* motivation quotes */
 
-#motivation{
+#motivation {
     height: 600px;
 }
 
-#left-motivation{
-    padding-top:30px;
+#left-motivation {
+    padding-top: 30px;
     width: 33%;
-    float:left;
+    float: left;
 }
 
-#center-motivation{
-    padding-top:30px;
+#center-motivation {
+    padding-top: 30px;
     width: 33%;
     margin: 0 auto;
 }
 
-#right-motivation{
-    padding-top:30px;
+#right-motivation {
+    padding-top: 30px;
     width: 33%;
-    float:right;
+    float: right;
 }
 
-hr{
+hr {
     border-top: 1px solid #D29D3F;
     width: 100%;
-    margin: 5px ;
+    margin: 5px;
 }
 
-.center-motivation-context{
-    width: 60%;
+.center-motivation-context {
+    width: 50%;
     margin: 0 auto;
     line-height: 20px;
-    clear: both;
     margin-bottom: 50px;
 }
 
-#motiv-head{
+#motiv-head {
     text-align: center;
     margin: 15px 0;
     font-size: 250%;
 }
 
-#circle-container-left{
-    width: 400px ;
-    height: 400px ;
-    padding: 35px;
+#circle-container-left {
+    width: 300px;
+    height: 300px;
+    padding: 25px;
     border-style: solid;
     border-color: #DB9050;
     border-width: 2px;
     border-radius: 50%;
-    float:left;
+    margin: 0 auto;
 }
 
-#circle-container-right{
-    width: 400px ;
-    height: 400px ;
-    padding: 35px;
+#circle-container-right {
+    width: 300px;
+    height: 300px;
+    padding: 25px;
     border-style: solid;
     border-color: #DB9050;
     border-width: 2px;
     border-radius: 50%;
-    float:right;
+    margin: 0 auto;
 }
 
-#circle-cover-bg-left{
+#circle-cover-bg-left {
     background: url('../images/motiv-left.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
 
-#circle-cover-bg-right{
+#circle-cover-bg-right {
     background: url('../images/motiv-right.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
+}
+
+footer{
+    height: 150px;
+}
+
+.social-networks{
+    text-align: center;
+
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #1D142A;
 }
