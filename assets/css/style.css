@@ -1,12 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300&family=Great+Vibes&display=swap');
 
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
     border: none;
 }
 
-body{
+body {
+    font-family: Frank Ruhl Libre, sand-serif;
+    font-weight: 400;
+    color: #1D142A;
+}
+
+/* heading and logo */
+
+h1, h2 {
     font-family: Great Vibes, sand-serif;
-    font-weight : 400;
-} 
+    letter-spacing: 3px;
+    color: #D29D3F;
+}
+
+#logo{
+    float: right;
+    font-size:500%;
+}
+
+#menu{
+    
+}
