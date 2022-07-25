@@ -261,3 +261,12 @@ footer{
     left: 150px;
     position: absolute;
 }
+
+#charities{
+    background-image: url('../images/charitiesbackground.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
