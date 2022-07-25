@@ -19,7 +19,7 @@
             <nav>
                 <ul id="menu">
                     <li>
-                        <a href="index.html" >Home</a>
+                        <a href="index.html">Home</a>
                     </li>
                     <li>
                         <a href="about.html">About</a>
@@ -36,56 +36,39 @@
             </nav>
         </header>
     </section>
-    
-    <section id="header-contact">
-        <h2>Contact Cat Jonesy</h2>
-        <p>
-            Thank you for checking Jonesy's Website. If you would like to become a sponsor please fill in the form below.
-        </p>
-        <form>
-            <label for="fname">First Name</label> 
-            <input type="text" name="first_name" id="fname" required />
-            <label for="lname">Last Name</label> 
-            <input type="text" name="last_name" id="lname" required />
-            <label for="email">Email Address</label> 
-            <input type="email" name="email_address" id="email" required />
-            <label for="text">Company Name</label> 
-            <input type="text" name="company_name" id="cname" required />
-
-            <selection name="sponsorship_preference">
-                <label for="payed">Payed</label>
-                <input type="radio" id="payed" name="sponsorship_preference" />
-                <button value="payed" required></button>
-                <label for="unpayed">Unpayed</label>
-                <input type="radio" id="unpayed" name="sponsorship_preference" />
-                <button value="unpayed" required></button>  
-            </selection>
-
-            <label for="text">Will a Free sample of your product be provided?</label> 
-            <label for="sample_yes">yes</label>
-            <input type="radio" id="sample_yes"  />
-            <button value="payed" required></button>
-            <label for="sample_no">no</label>
-            <input type="radio" id="sample_no"/>
-            <button value="unpayed" required></button>  
-
-            <label for="text">Please enter how the details of your sponsorhip and how much you are willing to pay</label> 
-            <textarea name="comment" form="usrform">Enter text here...</textarea>
-
-            <label for="text">Any additional information please enter here</label> 
-            <textarea name="comment" form="usrform">Enter text here...</textarea>
+    <section class="form-section">
+        <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/">
+            <h2> To contact us please sign in the form below! <i class="fa-solid fa-paw"></i></i> </h2>
+            <label for="fname">First Name</label>
+            <input id="fname" class="text-input" type="text" name="first_name" required />
+            <label for="lname">Last Name</label>
+            <input id="lname" class="text-input" type="text" name="last_name" required />
+            <label for="email">Email Address</label>
+            <input id="email" class="text-input" type="email" name="email_address" required />
+            <label for="addinfo">Any additional information please enter here:</label>
+            <textarea id="addinfo" class="text-input" type="text" name="comment"
+                form="usrform"></textarea>
+            <label for="road">Interview</label>
+            <input id="road" type="radio" name="reason_contact" value="interview" required />
+            <label for="trail">Licencing</label>
+            <input id="trail" type="radio" name="reason_contact" value="licencing" />
+            <label for="both">Advertisement</label>
+            <input id="both" type="radio" name="reason_contact" value="advertisement" />
+            <input class="join-button" type="submit" value="Submit" />
 
         </form>
-       
     </section>
 
     <footer>
         <ul class="social-networks">
             <li>
-                <a href="https://www.tiktok.com/@cat_jonesy" target="_blank" rel="noopener" aria-label="Visit our Tiktok page (opens in a new tab)"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="https://www.tiktok.com/@cat_jonesy" target="_blank" rel="noopener"
+                    aria-label="Visit our Tiktok page (opens in a new tab)"><i class="fa-brands fa-tiktok"></i></a>
             </li>
             <li>
-                <a href="https://instagram.com/jonesyjameschristmas" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://instagram.com/jonesyjameschristmas" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i
+                        class="fa-brands fa-instagram"></i></a>
             </li>
         </ul>
     </footer>
