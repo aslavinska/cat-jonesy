@@ -130,6 +130,7 @@ h2 {
     padding-top: 10px;
     width: 33%;
     margin: 0 auto;
+    font-size: 130%;
 }
 
 #right-motivation {
@@ -145,7 +146,7 @@ hr {
 }
 
 .center-motivation-context {
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
     line-height: 20px;
     margin-bottom: 10px;
@@ -155,7 +156,7 @@ hr {
     text-align: center;
     margin: 10px 0;
     width: 100%;
-    font-size: 250%;
+    font-size: 350%;
 }
 
 #circle-container-left {
@@ -192,20 +193,20 @@ hr {
     border-radius: 50%;
 }
 
-footer{
+footer {
     height: 150px;
 }
 
-.social-networks{
+.social-networks {
     text-align: center;
 
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
 }
 
-.social-networks i{
+.social-networks i {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
@@ -214,14 +215,14 @@ footer{
 
 /* gallery */
 
-#photos{
+#photos {
     clear: both;
     line-height: 0;
     column-count: 4;
     column-gap: 0;
 }
 
-#photos >img {
+#photos>img {
     width: 100%;
 }
 
@@ -244,10 +245,12 @@ footer{
     animation-fill-mode: forwards;
 
 }
+
 #cover-text-about,
 #cover-text-about h2 {
     color: #fff;
 }
+
 #cover-text-about {
     font-size: 130%;
     font-family: Frank Ruhl Libre, sand-serif;
@@ -262,10 +265,10 @@ footer{
     position: absolute;
 }
 
-#charities{
+#charities {
     background-image: url('../images/charitiesbackground.jpg');
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     background-position: center;
     width: 100%;
     overflow: hidden;
@@ -283,16 +286,35 @@ footer{
     box-sizing: border-box;
 }
 
-#charities h2, a{
+#charities h2,
+a {
     font-family: Frank Ruhl Libre, sand-serif;
     letter-spacing: 2px;
     color: #fafafa;
 }
 
-#charities-header{
-    font-size: 130%;
+#charities-header {
+    font-size: 150%;
+    text-align: center;
+    letter-spacing: 3px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+#about-Jonesy {
+    font-size: 150%;
     text-align: center;
     letter-spacing: 3px;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+#jonesy-story{
+    font-size: 90%;
+    text-align: left;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
