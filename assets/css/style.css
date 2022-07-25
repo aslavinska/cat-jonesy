@@ -219,3 +219,40 @@ footer{
 #photos >img {
     width: 100%;
 }
+
+/* about */
+#about-header-img {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#about-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/about-header.jpg') no-repeat center center;
+
+    /* animatites zoom effect on landing page*/
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+
+}
+#cover-text-about,
+#cover-text-about h2 {
+    color: #fff;
+}
+#cover-text-about {
+    font-size: 130%;
+    font-family: Frank Ruhl Libre, sand-serif;
+    letter-spacing: 3px;
+    width: 400px;
+    height: 100px;
+    padding-top: 20px;
+    padding-left: 20px;
+    background-color: rgba(196, 148, 77, 0.7);
+    bottom: 30px;
+    left: 150px;
+    position: absolute;
+}
