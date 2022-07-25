@@ -36,7 +36,7 @@ h2 {
 
 #menu,
 #logi {
-    line-height: 75px;
+    line-height: 105px;
 }
 
 #menu li {
@@ -113,23 +113,27 @@ h2 {
 /* motivation quotes */
 
 #motivation {
-    height: 600px;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 #left-motivation {
-    padding-top: 30px;
+    padding-top: 10px;
     width: 33%;
     float: left;
 }
 
 #center-motivation {
-    padding-top: 30px;
+    padding-top: 10px;
     width: 33%;
     margin: 0 auto;
 }
 
 #right-motivation {
-    padding-top: 30px;
+    padding-top: 10px;
     width: 33%;
     float: right;
 }
@@ -144,12 +148,13 @@ hr {
     width: 50%;
     margin: 0 auto;
     line-height: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 #motiv-head {
     text-align: center;
-    margin: 15px 0;
+    margin: 10px 0;
+    width: 100%;
     font-size: 250%;
 }
 
