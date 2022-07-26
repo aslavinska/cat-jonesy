@@ -386,7 +386,7 @@ a {
 
     }
 
-    #motiv-head {
+    #motiv-head, #charities-header {
         padding: 30px 0;
         margin: 0;
     }
@@ -408,6 +408,13 @@ a {
     hr {
         display: none;
     }
+
+    #charities > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
 }
 
 /* For medium screen sizes from 950 px wide and down */
@@ -422,7 +429,7 @@ a {
 
     }
 
-    #cover-text {
+    #cover-text, #cover-text-about {
         left: 0;
     }
 
@@ -450,4 +457,5 @@ a {
         text-align: center;
         padding: 0 20px;
     }
+
 }
