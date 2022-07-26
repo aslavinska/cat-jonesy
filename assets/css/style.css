@@ -309,7 +309,7 @@ a {
     padding-bottom: 20px;
 }
 
-#jonesy-story{
+#jonesy-story {
     font-size: 90%;
     text-align: left;
     letter-spacing: 1px;
@@ -320,7 +320,7 @@ a {
 }
 
 /* contact form */
-.form-section{
+.form-section {
     clear: left;
     background: url("../images/contactbackground.jpg");
     background-size: cover;
@@ -338,7 +338,7 @@ a {
     padding: 30px;
 }
 
-.signup-form > h2 {
+.signup-form>h2 {
     color: #fafafa;
     margin-bottom: 20px;
     font-size: 350%;
@@ -374,3 +374,37 @@ a {
     color: #f16c6b;
 }
 
+/* Media queries */
+
+/* For larger to medium screens sizr from 1200px wide and down */
+
+@media screen and (max-width: 1200px) {
+    #motivation {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+
+    }
+
+    #motiv-head {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #left-motivation,
+    #right-motivation {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+    #center-motivation{
+        clear: both;
+        width:100%;
+        float: left;
+        padding: 0;
+    }
+
+    hr{
+        display: none;
+    }
+}
