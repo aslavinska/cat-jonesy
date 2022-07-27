@@ -1,6 +1,13 @@
 # cat-jonesy
 The official website of a Tiktok celebrity cat Jonesy. This page is created for Jonesy's fans of any age to enjoy his pictures, support charities and to be able to contact Jonesy for official communication.
 Users of this will be able to find all the information they need to know about Jonesy: About Jonesy, Gallery and Contact form. This site is targeted towards Jonesy's fans, who love how ginger and fluffy he is. 
+![Responsive](/assets/images/Responsive.jpg)
+
+# Features
+
+- **Navigation**
+
+
 
 # Testing
  - I have tested this page in brosers: Chrome and Firefox.
