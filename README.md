@@ -6,8 +6,29 @@ Users of this will be able to find all the information they need to know about J
 # Features
 
 - **Navigation**
+    - Featuring at the top of the page, the navigation shows the page name in the top right corner: Cat Jonesy that links to the top of the page.
+    - The other navigation links are to the right: Home, About, Gallery and Contact Us which link to different sections of the same page. 
+    - The navigation is in a font visible and readable for a user and color that contrasts with the background. 
+    - The navigation clearly tells to the user the name of the app and website, and makes the different sections of information easy to find. 
+    ![Menu Bar](/assets/images/menuprint.jpg)
+
+- **The Header**
+    - The header shows the name of the app, using the other color chosen: Shade of Orange with hand writing type of font theme. 
+    - The header shows an important message that needs to be shared with the worls "Adopt do not shop"
+    - Thi section provides the user with clear information about what the site is and who is the targetted audience. 
+
+- **The About Section**
+    - The about section gives details about the cat Jonesy history and has a table with charity names that Jonesy supports from his income online.
+    ![AboutScr](/assets/images/about-page-scr.jpg)
+
+- **The Contact Us section**
+    - The contact us section has a form to contact Jonesy and request his interview/ licencing of his videos or an advertisiment. 
+    - The contact us sectio includes social media links as the rest of te pages, so users can find Jonesy's tiktok and instagram pages.
+    ![ContactUsScr](/assets/images/contactus-scr.jpg)
 
 
+- **The Gallery**
+    - The gallery section includes some of the unique pictures of Jonesy that cannot be found anywhere else online. 
 
 # Testing
  - I have tested this page in brosers: Chrome and Firefox.
