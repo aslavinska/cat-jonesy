@@ -73,7 +73,8 @@ The lie link can be found here - [Cat Jonesy](https://aslavinska.github.io/cat-j
 # Credits
 
 ## Content
-The code example for layout abnd social media links was taken from CI Love Running Project. 
+The code example for layout and social media links was taken from CI Love Running Project. 
+The template for the Read.me file has been taked from Code Institute. 
 
 ## Media
 All images were take from private Jonesy official archives. All rights reserved.
