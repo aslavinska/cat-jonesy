@@ -467,4 +467,38 @@ a {
     #photos{
         column-count: 2;
     }
+.form-section {
+        clear: left;
+        height: 1000px;
+    }
+    #hero-image {
+        animation: none;
+    }
+    #menu {
+        font-size: 100%;
+        letter-spacing: 1px;
+    }
+    #menu li {
+        margin-left: 20px;
+    }
+
+    #left-motivation {
+        padding-top: 0px;
+        width: 100%;
+
+    }
+    
+    #center-motivation {
+        padding-top: 0px;
+        width: 100%;
+
+    }
+    
+    #right-motivation {
+        padding-top: 0px;
+        width: 100%;
+        margin-bottom: 1000px;
+       
+    }
+    
 }
