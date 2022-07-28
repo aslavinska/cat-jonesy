@@ -40,9 +40,12 @@ Users of this will be able to find all the information they need to know about J
 
  ### Solved bugs
 
-- During the development of the home page the second circle image was belop the rest of the elements in that section. 
+1. During the development of the home page the second circle image was belop the rest of the elements in that section. 
 - It was discovered that display needed to be set to flex in motivation in CSS filw and then heading to appear on its own the width of motiv-head has been changed to 100% 
-- actions above removed the problem. 
+- actions above removed the problem.
+
+2. When you switch to mobile screen view, there was a margin white line covering motivation images.
+- To fix that saspect ration was set to 1 and motivation width to 100%.
 
 ## Validator Testing 
 
