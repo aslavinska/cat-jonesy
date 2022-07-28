@@ -493,7 +493,8 @@ a {
         height: 1000px;
     }
 
-    #hero-image, #about-image{
+    #hero-image,
+    #about-image {
         animation: none;
     }
 
@@ -511,9 +512,10 @@ a {
         margin-right: 5px;
     }
 
-    #motivation{
+    #motivation {
         width: 100%;
     }
+
     #left-motivation,
     #right-motivation {
         width: inherit;
@@ -537,7 +539,7 @@ a {
     }
 
     #circle-container-left {
-        
+
         aspect-ratio: 1;
         padding: 10px;
         border-width: 2px;
@@ -547,7 +549,7 @@ a {
     }
 
     #circle-container-right {
-        
+
         aspect-ratio: 1;
         padding: 10px;
         border-width: 2px;
@@ -557,9 +559,20 @@ a {
     }
 
     #about-image {
-        background: url('../images/about-header-mobile.jpg') no-repeat center center;  
+        background: url('../images/about-header-mobile.jpg') no-repeat center center;
     }
+
     #charities {
-        background: url('../images/charitiesbackground-mobile.jpg') no-repeat center center;  
+        background: url('../images/charitiesbackground-mobile.jpg') no-repeat center center;
+    }
+
+
+    #hero-outer {
+        height: 500px;
+
+    }
+
+    #hero-image {
+        height: 500px;
     }
 }
