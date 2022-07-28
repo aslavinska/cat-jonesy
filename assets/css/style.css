@@ -493,7 +493,7 @@ a {
         height: 1000px;
     }
 
-    #hero-image {
+    #hero-image, #about-image{
         animation: none;
     }
 
@@ -540,8 +540,6 @@ a {
         
         aspect-ratio: 1;
         padding: 10px;
-        border-style: solid;
-        border-color: #DB9050;
         border-width: 2px;
         border-radius: 50%;
         box-sizing: border-box;
@@ -552,11 +550,16 @@ a {
         
         aspect-ratio: 1;
         padding: 10px;
-        border-style: solid;
-        border-color: #DB9050;
         border-width: 2px;
         border-radius: 50%;
         box-sizing: border-box;
         background-size: cover;
+    }
+
+    #about-image {
+        background: url('../images/about-header-mobile.jpg') no-repeat center center;  
+    }
+    #charities {
+        background: url('../images/charitiesbackground-mobile.jpg') no-repeat center center;  
     }
 }
