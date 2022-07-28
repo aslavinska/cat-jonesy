@@ -500,5 +500,8 @@ a {
         margin-bottom: 1000px;
        
     }
-    
+    #logo {
+        font-size: 300%;
+        margin-right: 5px;
+    }
 }
